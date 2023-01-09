@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    * {
+      margin-top: 10px;
+    }
+
+    p {
+      color: red;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <label for="uname">Username:</label><br>
+  <input type="text" id="uname" name="uname"><br>
+  <label for="pword">Password:</label><br>
+  <input type="password" id="pword" name="pword"><br>
+  <p class="hidden" id="fail-msg">Username or password incorrect</p>
+  <button class="submit" onclick="verifyLogin()">Submit</button>
+
+  <script>
+    let uname;
+    let pword;
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        verifyLogin();
+      }
+    })
+
+    const verifyLogin = function () {
+      uname = document.getElementById("uname").value;
+      pword = document.getElementById("pword").value;
+
+      if (uname === "jw" && pword === "urmom") {
+        window.location.assign("login-successful.html");
+      } else {
+        document.getElementById("fail-msg").classList.toggle("hidden");
+      }
+    }
+  </script>
+</body>
+
+</html>
