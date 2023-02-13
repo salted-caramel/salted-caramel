@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @salted-caramel
 - I'm a new coder and developer
-- Currently learning JavaScipt
-- Plan to learn HTML and CSS as well
+- Currently learning HTML, CSS, JavaScript for web dev and
+- Kotlin and XML for app dev
 
 <!---
 salted-caramel/salted-caramel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
