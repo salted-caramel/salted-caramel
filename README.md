@@ -9,4 +9,4 @@ You can click the Preview link to take a look at your changes.
 --->
 
 <img src="https://profile-counter.glitch.me/salted-caramel/count.svg" />
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=salted-caramel&langs_count=10&theme=tokyonight)]()
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salted-caramel&count_private=true&show_icons=true&theme=onedark&layout=compact" />
