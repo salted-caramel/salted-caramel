@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @salted-caramel
 - I'm a new coder and developer
 - Currently learning React and Nextjs for web dev and
-- Flutter and Dart for app dev
+- Flutter and Dart / React Native for app dev
 
 <!---
 salted-caramel/salted-caramel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
